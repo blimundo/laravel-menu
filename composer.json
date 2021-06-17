@@ -1,0 +1,39 @@
+{
+    "name": "blimundo/laravel-menu",
+    "description": "menu management for Laravel applications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rolando Sanches",
+            "email": "rolandosanches2010@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^6.18",
+        "nunomaduro/collision": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Blimundo\\Menu\\": "src"
+        }
+    }, 
+    "autoload-dev": {
+        "psr-4": {
+            "Blimundo\\Menu\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": ".\\vendor\\bin\\testbench.bat package:test"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Blimundo\\Menu\\MenuServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "spatie/laravel-translatable": "^5.0"
+    }
+}
