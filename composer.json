@@ -10,8 +10,8 @@
         }
     ],
     "require-dev": {
-        "orchestra/testbench": "^6.18",
-        "nunomaduro/collision": "^5.3"
+        "orchestra/testbench": "^7.1",
+        "nunomaduro/collision": "^6.1"
     },
     "autoload": {
         "psr-4": {
@@ -34,6 +34,6 @@
         }
     },
     "require": {
-        "spatie/laravel-translatable": "^5.0"
+        "spatie/laravel-translatable": "^6.0"
     }
 }
